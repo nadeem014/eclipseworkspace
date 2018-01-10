@@ -1,0 +1,8 @@
+NEW_FILE_TEMPLATE_NAME=Datapower stylesheet - XSLT 1.0
+eclipse.preferences.version=1
+org.eclipse.wst.xsl.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="xsl_new" deleted\="false" description\="" enabled\="true" name\="Datapower stylesheet - XSLT 1.0">&lt;?xml version\="1.0" encoding\="${encoding}"?&gt;\n&lt;xsl\:stylesheet version\="${xsl_version}" extension-element-prefixes\="dp dyn" exclude-result-prefixes\="dp dyn" xmlns\:xsl\="http\://www.w3.org/1999/XSL/Transform" xmlns\:dp\="http\://www.datapower.com/extensions" xmlns\:dyn\="http\://exslt.org/dynamic"&gt;\n\t&lt;xsl\:template match\="/"&gt;\n\t\t&lt;\!-- TODO\: Auto-generated template --&gt;${cursor}\n\t&lt;/xsl\:template&gt;\n&lt;/xsl\:stylesheet&gt;</template><template autoinsert\="true" context\="xsl_new" deleted\="false" description\="" enabled\="true" name\="Datapower stylesheet  - XSLT 2.0">&lt;?xml version\="1.0" encoding\="${encoding}"?&gt;\n&lt;xsl\:stylesheet version\="2.0" extension-element-prefixes\="dp dyn" exclude-result-prefixes\="dp dyn" xmlns\:xsl\="http\://www.w3.org/1999/XSL/Transform" xmlns\:dp\="http\://www.datapower.com/extensions" xmlns\:dyn\="http\://exslt.org/dynamic"&gt;\n\t&lt;xsl\:template match\="/"&gt;\n\t\t&lt;\!-- TODO\: Auto-generated template --&gt;${cursor}\n\t&lt;/xsl\:template&gt;\n&lt;/xsl\:stylesheet&gt;</template></templates>
+overriddenByCSS=,xsltagAttributeValue,xsltagBorder,xsltagName,xsltagAttributeName,
+xsltagAttributeName=\#BED6FF | null | null | null | null | null
+xsltagAttributeValue=\#FFC600 | null | null | null | null | null
+xsltagBorder=\#79ABFF | null | null | null | null | null
+xsltagName=\#BED6FF | null | null | null | null | null

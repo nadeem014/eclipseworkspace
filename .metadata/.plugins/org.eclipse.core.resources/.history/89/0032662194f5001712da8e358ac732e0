@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" extension-element-prefixes="dp dyn" exclude-result-prefixes="dp dyn" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:dp="http://www.datapower.com/extensions" xmlns:dyn="http://exslt.org/dynamic">
+	<xsl:output method="html"/>
+	<xsl:template match="/">
+		<dp:set-variable name="headersSection" select="'dp:http-request-header('Date')'"/>
+	</xsl:template>
+</xsl:stylesheet>
