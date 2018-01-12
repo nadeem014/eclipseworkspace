@@ -1,0 +1,62 @@
+<soap:envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:nas="http://www.nasco.com/common/schema/message/nascoheader_v2" xmlns:cs="http://www.nasco.com/internal/customerservicing/schema/case/cs_storedocumentrequest_v2" xmlns:cs1="http://www.nasco.com/internal/customerservicing/schema/common/cs_common_v2">
+	<soap:Header>
+		<nas:NASCOHeader>
+			<nas:SenderInfo>
+				<nas:HomePlanCode>710</nas:HomePlanCode>
+				<nas:WorkPlanCode>710</nas:WorkPlanCode>
+				<nas:OriginatingAppName>NCOMPASS</nas:OriginatingAppName>
+				<nas:OriginatingUserName>Weqaar</nas:OriginatingUserName>
+			</nas:SenderInfo>
+			<nas:TransactionId>102587978787897312316548741521321</nas:TransactionId>
+		</nas:NASCOHeader>
+	</soap:Header>
+	<soap:Body>
+		<cs:StoreDocumentRequest>
+			
+			<cs:AttributeValue>
+				<cs1:Name>ExternalContractIB</cs1:Name>
+				<cs1:Value>123456789</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>AlphaPrefix</cs1:Name>
+				<cs1:Value>QXYQ</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>FirstName</cs1:Name>
+				<cs1:Value>Nadeem</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>LastName</cs1:Name>
+				<cs1:Value>Ahmed</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>CaseID</cs1:Name>
+				<cs1:Value>PID2116</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>OperatorID</cs1:Name>
+				<cs1:Value>Weqaar</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>DocumentName</cs1:Name>
+				<cs1:Value>abc.pdf</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:AttributeValue>
+				<cs1:Name>CreateMilliSeconds</cs1:Name>
+				<cs1:Value>-376831008</cs1:Value>
+			</cs:AttributeValue>
+			
+			<cs:DocumentBinary>
+				<xop:Include href="cid:abc.pdf" xmlns:xop="http://www.w3.org/2004/08/xop/include"/>
+			</cs:DocumentBinary>
+			
+		</cs:StoreDocumentRequest>
+	</soap:Body>
+</soap:envelope>
