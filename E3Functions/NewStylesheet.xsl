@@ -9,7 +9,7 @@
 		        <h1>Heading 1</h1>
 		        <p>
 		        Custom Header Value is :
-		        <xsl:value-of select="dp:sub-string('$CustomHeader')"/>
+		        <xsl:value-of select="sub-string($CustomHeader,225)"/>
 		        </p>
 		        <p>
 		        Host is:
